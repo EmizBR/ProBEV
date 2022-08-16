@@ -1,0 +1,221 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "Angulo X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "Angulo Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "Angulo Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "A/F OlhoEsq"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "Sorriso OlhoEsq"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "A/F OlhoDir"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "Sorriso OlhoDir"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "Bola do Olho X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "Bola do Olho Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "Sobran Esq"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "Sobran Dir"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "Formato Boca"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "A/F Boca"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "照れ"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "Corpo X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "体の回転　Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "体の回転　Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "Respiração"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "Fisico cabeloY"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "",
+			"Name": "Fisico cabeloX"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "",
+			"Name": "髪揺れ　後"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Total",
+			"Name": "Total"
+		},
+		{
+			"Id": "Cabeca",
+			"Name": "Cabeça"
+		},
+		{
+			"Id": "Corpo",
+			"Name": "Corpo"
+		},
+		{
+			"Id": "Bandana",
+			"Name": "Bandana"
+		},
+		{
+			"Id": "Franjas",
+			"Name": "Franjas"
+		},
+		{
+			"Id": "OrelhaDir",
+			"Name": "OrelhaDir"
+		},
+		{
+			"Id": "OrelhaEsq",
+			"Name": "OrelhaEsq"
+		},
+		{
+			"Id": "Rosto",
+			"Name": "Rosto"
+		},
+		{
+			"Id": "Decote",
+			"Name": "Decote"
+		},
+		{
+			"Id": "BrincoD",
+			"Name": "BrincoD"
+		},
+		{
+			"Id": "BrincoE",
+			"Name": "BrincoE"
+		},
+		{
+			"Id": "OlhoEsq",
+			"Name": "OlhoEsq"
+		},
+		{
+			"Id": "OlhoDir",
+			"Name": "OlhoDir"
+		},
+		{
+			"Id": "Boca",
+			"Name": "Boca"
+		},
+		{
+			"Id": "BaseRosto",
+			"Name": "BaseRosto"
+		},
+		{
+			"Id": "Cilios2",
+			"Name": "Cilios"
+		},
+		{
+			"Id": "Cilios",
+			"Name": "Cilios"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamMouthForm",
+			"ParamMouthOpenY"
+		]
+	]
+}
